@@ -2,21 +2,21 @@
 # https://aur.archlinux.org/packages/honk/
 
 pkgname=honk
-pkgver=1.3.1
-pkgrel=13
+pkgver=1.4.0
+pkgrel=14
 epoch=0
 pkgdesc="ActivityPub compatible server with web frontend."
 arch=("x86_64")
 url="https://humungus.tedunangst.com/r/honk"
 license=("custom:ISC")
-makedepends=("go>=1.16" "sqlite")
-depends=("go>=1.16" "sqlite")
+makedepends=("go>=1.20" "sqlite")
+depends=("go>=1.20" "sqlite")
 optdepends=("nginx: for TLS and reverse proxying.")
 changelog="$pkgname.changelog"
 provides=("${pkgname}")
 conflicts=("${pkgname}" 'honk-hg')
 source=("$pkgname-$pkgver.tar::https://humungus.tedunangst.com/r/honk/d/$pkgname-$pkgver.tgz")
-sha512sums=("4af94320ea53320b0bc498a5e9d0ec66c59a0d9e0cb780be0bebab059e5a290feffe1bb524af169f6e381cc71c85ff0d84f971a6e890d3d05c65db60cce0ad26")
+sha512sums=("8ae8e573207b94c7355c7314ecf136b858b1294920654270935d32c2f3dade9c1bbe63e3498297c4d9bcfb0b18fcbc3111544299aab809ba62c14d92d3ca7487")
 options=(strip docs zipman)
 install="$pkgname.install"
 
