@@ -1,5 +1,55 @@
 changelog
 
+### 1.5.2 Gorgeous Gorilla
+
++ Some UI tweaks and fixes.
+
++ Apply filters to pages to ontologies and search.
+
++ Have xzone import refetch objects.
+
++ Fix debug logging.
+
++ Add back syslog logging.
+
++ Show inline video tags
+
+### 1.5.1 Vapid Vernacular
+
++ Well actually posixly correct links for activity images.
+
+### 1.5.0 Cyan Cellophane
+
++ Filter match on direct messages.
+
++ Relative paths for listen socket.
+
++ AVIF image support. Optional with config option convertavif.
+
++ HEIF (HEIC) image support as well.
+
++ Sample emu. :disputed:
+
++ Fix hotkeys on mac.
+
++ Web triggers when you honk.
+
++ Sample trigger to cross post to usenet.
+
++ Reduce dependency bloat.
+
++ Improved efficiency and reduced memory churn.
+
++ A new set of emoji reactions.
+
++ Auto restart after SIGHUP.
+
+- Remove the qotd server.
+
+- Remove obsolete and mostly useless server user account.
+
+- Minimum go version is now 1.22.
+
 ### 1.4.2 Kindred Key
 
 + Fix shortcuts for alternate keymaps.
